@@ -21,8 +21,9 @@ const profile = {
     verified: true,
     headline: "Full Stack developer | CU'28 | Tech Enthusiast | Photographer | Geek",
     location: "Muzzaffarpur, Bihar, India",
-    experience: "Brainstomers club",
-    connections: (true)
+    experience: "Brainstomers club, Scaler School of Technology",
+    connections: (true),
+    isposting: (true)
 };
 console.log(profile);
 console.log(typeof profile.verified);
