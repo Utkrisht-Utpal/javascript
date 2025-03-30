@@ -16,15 +16,15 @@
 
 //LinkedIn profile elements copy
 
-const profile = {
-    Name: "Utkrisht Utpal",
-    verified: true,
-    headline: "Full Stack developer | CU'28 | Tech Enthusiast | Photographer | Geek",
-    location: "Muzzaffarpur, Bihar, India",
-    experience: "Brainstomers club, Scaler School of Technology",
-    connections: (true),
-    isposting: (true)
-};
-console.log(profile);
-console.log(typeof profile.verified);
-console.log(typeof profile["connections"]);
+// const profile = {
+//     Name: "Utkrisht Utpal",
+//     verified: true,
+//     headline: "Full Stack developer | CU'28 | Tech Enthusiast | Photographer | Geek",
+//     location: "Muzzaffarpur, Bihar, India",
+//     experience: "Brainstomers club, Scaler School of Technology",
+//     connections: (true),
+//     isposting: (true)
+// };
+// console.log(profile);
+// console.log(typeof profile.verified);
+// console.log(typeof profile["connections"]);
