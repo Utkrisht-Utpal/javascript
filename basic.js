@@ -21,7 +21,7 @@
 //     verified: true,
 //     headline: "Full Stack developer | CU'28 | Tech Enthusiast | Photographer | Geek",
 //     location: "Muzzaffarpur, Bihar, India",
-//     experience: "Brainstomers club, Scaler School of Technology",
+//     experience: "Barnstormers club, Scaler School of Technology",
 //     connections: (true),
 //     isposting: (true),
 //     emailID: "utkrishtutpal1@gmail.com"
