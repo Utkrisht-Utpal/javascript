@@ -23,8 +23,10 @@
 //     location: "Muzzaffarpur, Bihar, India",
 //     experience: "Brainstomers club, Scaler School of Technology",
 //     connections: (true),
-//     isposting: (true)
+//     isposting: (true),
+//     emailID: "utkrishtutpal1@gmail.com"
 // };
+
 // console.log(profile);
 // console.log(typeof profile.verified);
 // console.log(typeof profile["connections"]);
