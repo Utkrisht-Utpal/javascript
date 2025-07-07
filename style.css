@@ -1,36 +1,4 @@
-body{
-    color: red;
-}
-
-a:hover{
-    border: 2px solid red;
-    border-radius: 5px;
-    padding: 10px;
-    text-transform:uppercase ;
-    color: black
-}
-a{
-    display: block;
-    margin: 10px;
-    text-align: center;
-    color: green;
-    text-decoration: none;
-}
-
-table{
-    width: 50%;
-    color: black;
-    border-collapse: collapse;
-    background-color: skyblue;
-}
-th{
-    padding: 3px;
-    border: 3px solid white;
-    text-align: center;
-}
-td{
-    height: 200%;
-    padding: 3px;
-    border: 3px solid white;
-    text-align: center;
+button{
+    width: 100px;
+    word-wrap: wrap;
 }

@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Description" content="">
-        <title>This is my website</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="basic.js"></script>
-    </head>
 
-    <body>
-        <a href="https://github.com/Utkrisht-Utpal" title="This is my github." target="">This is my github</a>
-        <a href="https://utkrishts-portfolio.webflow.io/">
-        <img src="/javascript/myimage.jpg" alt = "This is my image" title="This is my image" width="20%" height="20%" style="border: 10px solid red;">
-        </a>
-        <br>
-        <b>This is my photo and clicking on it will redirect you to his website.</b>
-        <table>
-            <th colspan="3">2024 - 2028 batch</th>
-        <tr>
-        <th>Name</th>
-        <th>UID</th>
-        <th>CGPA</th>
-        </tr>
-        <tr>
-            <td>Rahat Bhatia</td>
-            <td>24BCF10001</td>
-            <td>6.05</td>
-        </tr>
-        <tr>
-            <td>Tanveer Kaur</td>
-            <td>24BCF10002</td>
-            <td>7.38</td>
-        </tr>
-        <tr>
-            <td>Utkrisht Utpal</td>
-            <td>24BCF10003</td>
-            <td>6.95</td>
-            <td>It can be seven</td>
-        </tr>
-        </table>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="basic.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    </body>
+<body>
+    <button onclick="
+        console.log(`Cart Quantity: ${cartQuantity}`);    
+    ">Show Quantity</button>
+    <button onclick="
+        cartQuantity += 1;
+        console.log(`Item Added to cart!`);
+    ">Add to cart</button>
+    <button onclick="
+        cartQuantity += 2;
+        console.log(`Items added to cart!`);
+        console.log(`Cart Quantity: ${cartQuantity}`);
+    ">+2</button>
+    <button onclick="
+        cartQuantity += 3;
+        console.log(`Items added to cart!`);
+        console.log(`Cart Quantity: ${cartQuantity}`);
+    ">+3</button>
+    <button onclick="
+        if (cartQuantity === 1){
+            console.log(`Item removed from the cart!`);
+        }
+        
+        else if (cartQuantity > 1) {
+            console.log(`Items removed from the cart!`);
+        }
+        
+        else{
+            console.log(`The cart is already empty!!`); 
+        } 
+        cartQuantity = 0;
+        console.log(`Cart Quantity: ${cartQuantity}`); 
+        ">Reset Cart</button>
+</body>
 </html>
